@@ -62,12 +62,9 @@ export default {
   methods: {
     ...mapActions(useCharacterStore, ["loadCharacters"]),
     async load() {
-      if (this.checkForm()) {
-        this.loadCharacters(this.name, this.status);
-      }
+      if (this.checkForm()) this.loadCharacters(this.name, this.status);
     },
     checkForm() {
-      console.log("[length]", this.name.length);
       if (
         this.status == "" ||
         this.name == "" ||
