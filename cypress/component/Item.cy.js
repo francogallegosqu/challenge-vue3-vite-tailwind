@@ -2,7 +2,7 @@ import { expect } from "chai"
 import Item from "../../src/components/Item.vue";
 
 describe('Item.cy.js', () => {
-  it('playground', () => {
+  it('Load Item', () => {
     const characters = [
       {
         name: "Rick Snachez",
