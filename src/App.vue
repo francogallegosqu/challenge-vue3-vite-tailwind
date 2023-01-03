@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="mb-4">
     <img
       alt="Vue logo"
       class="logo"
